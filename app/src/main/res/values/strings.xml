@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">moreLearn</string>
+    <string name="black_2b">#2b2b2b</string>
+    <string name="transparent">#00000000</string>
+    <string name="main_title">主页标题</string>
+    <string name="test_title">测试标题</string>
+</resources>

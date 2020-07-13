@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/head_normal" />
+
+    <FrameLayout
+        android:id="@+id/frag_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_head_contains"
+        android:layout_above="@+id/radio_group_main"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_group_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rb_shanghai"
+            style="@style/main_radio_button"
+            android:drawableTop="@drawable/rb_bg_home"
+            android:text="上海"
+           />
+
+        <RadioButton
+            android:id="@+id/rb_shenzhen"
+            style="@style/main_radio_button"
+            android:drawableTop="@drawable/rb_bg_live"
+            android:text="深圳"
+           />
+
+        <RadioButton
+            android:id="@+id/rb_hangzhou"
+            style="@style/main_radio_button"
+            android:drawableTop="@drawable/rb_bg_mine"
+            android:text="杭州"
+             />
+
+        <RadioButton
+            android:id="@+id/rb_beijing"
+            style="@style/main_radio_button"
+            android:drawableTop="@drawable/rb_bg_mine"
+            android:text="北京"
+            />
+
+    </RadioGroup>
+
+</RelativeLayout>

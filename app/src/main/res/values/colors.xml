@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="home_bcg_title_end">#07C99C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="main_navigation_text">#838383</color>
+    <color name="main_navigation_bar_text">#2ECF80</color>
+    <color name="colorGray4">#787878</color>
+    <color name="colorTintRed">#FF4C58</color>
+</resources>
